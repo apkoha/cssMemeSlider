@@ -149,7 +149,7 @@ html {
 }
 
 .meme__circle:active {
-  background-color: #ffffff;
+  background-color: #b4b4b4;
   border: 0.5rem solid  rgb(37, 39, 38);
 }
 
