@@ -60,6 +60,7 @@ html {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 #img1:checked ~ .meme__images .meme__images-container {
