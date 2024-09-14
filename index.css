@@ -148,6 +148,7 @@ html {
   border-radius: 50%;
   border: 0.5rem solid rgb(37, 39, 38);
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .meme__circle:hover {
@@ -203,7 +204,7 @@ html {
   .meme__slider {
   min-width: 15rem;
   }
-  
+
   .meme__text {
     font-size: 0.8rem;
   }
