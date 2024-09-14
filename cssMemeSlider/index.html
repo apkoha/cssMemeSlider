@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Meme Slider</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1 class="visually-hidden">Meme Slider</h1>
+  </header>
+    <main class="main">
+      <div class="meme__slider">
+        <input class="meme__input" type="radio" name="radio" id="img1" checked>
+        <input class="meme__input" type="radio" name="radio" id="img2">
+        <input class="meme__input" type="radio" name="radio" id="img3">
+        <input class="meme__input" type="radio" name="radio" id="img4">
+        <input class="meme__input" type="radio" name="radio" id="img5">
+
+        <div class="meme__images">
+          <div class="meme__images-container">
+            <img class="meme__img" src="./img/img1.png" srcset="./img/img1-380.png 380w" sizes="380vw" alt="Robert Downey rolls his eyes">
+            <img class="meme__img" src="./img/img2.png" srcset="./img/img2-380.png 380w" sizes="380vw" alt="Leonardo DiCaprio raises his glass">
+            <img class="meme__img" src="./img/img3.png" srcset="./img/img3-380.png 380w" sizes="380vw" alt="Dog with an empty wallet">
+            <img class="meme__img" src="./img/img4.png" srcset="./img/img4-380.png 380w" sizes="380vw" alt="Forrest Gump says">
+            <img class="meme__img" src="./img/img5.png" srcset="./img/img5-380.png 380w" sizes="380vw" alt="Trollface laughs">
+          </div>
+        </div>
+
+        <div class="meme__control">
+          <div class="meme__texts">
+            <div class="meme__texts-container">
+              <p class="meme__text">I check other students' work</p>
+              <p class="meme__text">If you received the maximum score for an assignment</p>
+              <p class="meme__text">Interviewer: why do you want to work for us?</p>
+              <p class="meme__text">My mom says i'm special</p>
+              <p class="meme__text">The secret to trolling is to always and</p>
+            </div>
+          </div>
+
+          <div class="meme__buttons">
+            <div class="meme__buttons-container">
+              <label for="img1" class="meme__circle circle1"></label>
+              <label for="img2" class="meme__circle circle2"></label>
+              <label for="img3" class="meme__circle circle3"></label>
+              <label for="img4" class="meme__circle circle4"></label>
+              <label for="img5" class="meme__circle circle5"></label>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </main>
+</body>
+</html>
