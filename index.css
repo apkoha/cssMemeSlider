@@ -173,3 +173,38 @@ html {
   border: 0.1rem solid #ffffff;
   margin: 0.53rem;
 }
+
+@media (max-width: 640px) {
+.meme__slider {
+  padding: 0.4rem;
+}
+
+.meme__img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+  .meme__control {
+    flex-direction: column-reverse;
+  }
+
+  .meme__buttons-wrapper {
+    padding-left: 0;
+  }
+
+  .meme__text {
+    display: block;
+    padding-top: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .meme__slider {
+  min-width: 15rem;
+  }
+  
+  .meme__text {
+    font-size: 0.8rem;
+  }
+}
